@@ -914,6 +914,8 @@ footer .install .row img{
 
 
 
+
+
 /* shop */
 #shop-header{
     display: flex;
@@ -937,4 +939,66 @@ footer .install .row img{
 #shop-header p{
     color: #FACC15;
     font-size: 30px;
+}
+
+/* shop1 media */
+
+@media (max-width:788px){
+    #pro-details{
+        display: flex ;
+        flex-direction: column;
+    }
+    #pro-details .single-pro-image{
+        width: 100%;
+        margin-left: 50px;
+    }
+    #pro-details .single-product-details{
+        width: 100%;
+        padding-top: 30px;
+        
+    }
+
+
+   }
+
+
+   /* blog */
+#blog{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    background-image: url("./images/blog-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+}
+#blog h2{
+    color: #ffff;
+    font-size: 50px;
+    padding: 20px 0px;
+}
+#blog p{
+    color: #FACC15;
+    font-size: 38px;
+    padding: 20px 0px;
+}
+
+@media (max-width:788px){
+    #banner{
+        height: 30vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+    #blog h2{
+        font-size: 30px;
+    }
+    #blog p{
+        font-size: 25px;
+    }
+    
 }
